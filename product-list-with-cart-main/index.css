@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color:hsl(20, 50%, 98%) ;
+    
+}
+.BigDev{
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+
+.card1{
+  display: inline-flex;
+  gap: 25px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.Img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+.Img:hover{
+    transform: scale(1.05);
+    border: 2px solid hsl(14, 86%, 42%);
+}
+.Card_1{
+     position: relative;
+     padding-bottom: 20px;
+     
+  
+}
+
+.Img{
+    width: 100%;
+    display: block;
+}
+
+.cart-btn{
+    position: absolute;
+    bottom: 10px;  
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px;
+    width: 150px;
+    font-size: 13px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+.cart-btn:hover{
+    color: hsl(14, 86%, 42%);
+    background-color: hsl(20, 50%, 98%);
+     border: 1px solid hsl(14, 86%, 42%);
+}
+.quantity-box{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 35px;
+    
+}
+
+.quantity-box span{
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.Btn{
+font-size: 10px;
+}
+.text{
+    margin-top: 10px;
+    
+    
+}
+.food{
+    color: grey;
+    font-size: 14px;
+}
+.salary{
+    font-size: 14px;
+    color: hsl(14, 86%, 42%);
+}
+
+    .title_Cart{
+    color: hsl(14, 86%, 42%);
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.img_Cart{
+    position: absolute;
+    top: 70px;
+    left: 120px;
+}
+.text_Cart{
+    font-size: 13px;
+    position: absolute;
+    top: 210px;
+    left: 55px;
+    color:hsl(12, 20%, 44%);
+    font-weight: bold;
+
+  
+   
+}
+.cart-item{
+    border-bottom: 1px solid hsl(14, 86%, 42%);
+    padding: 10px 0;
+    width: 300px;
+    margin-left: 20px;
+}
+
+
+.item-name{
+    font-size: 13px; 
+
+}
+
+
+.item-details{
+    color: gray;
+    font-size: 14px;
+}
+
+
+.item-total{
+    color: gray;
+   
+   
+}
+.Order_Total{
+    margin-top: 10px;
+}
+
+ .Cart{
+    width: 370px;
+    min-height: 250px;
+    background-color: white; 
+
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+
+    position: absolute;
+    left: 930px;
+    top: 60px;
+
+    height: fit-content; 
+}
+.cart-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 0;
+
+    border-bottom: 1px solid #eee;
+}
+
+.remove-btn{
+    width: 25px;
+    height: 25px;
+
+    border-radius: 50%;
+
+    border: 1px solid gray;
+
+    background-color: white;
+
+    cursor: pointer;
+
+    font-size: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
